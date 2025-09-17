@@ -1,4 +1,41 @@
 <!-- .slide: class="exercice" -->
+## Quiz
+
+<br>
+
+_Question_ : Quelle expression permet de récupérer la position actuelle dans un count
+
+<br>
+
+1. each.key
+2. each.value
+3. var.value
+4. each.index
+
+##==##
+
+<!-- .slide: class="exercice" -->
+
+## Quiz
+
+<br>
+
+_Question_ : Quelle expression permet de récupérer la position actuelle dans un count
+
+<br>
+
+1. each.key
+2. each.value
+3. var.value
+4. **each.index**
+
+##==##
+
+<!-- .slide: class="exercice" -->
+
+
+
+<!-- .slide: class="exercice" -->
 
 ## Quiz
 
@@ -8,9 +45,10 @@ _Question_ : Quelle expression permet de récupérer la clé actuelle dans une b
 
 <br>
 
-1. each.index
+1. each.key
 2. each.value
 3. var.value
+4. each.index
 
 ##==##
 
@@ -24,9 +62,10 @@ _Question_ : Quelle expression permet de récupérer la clé actuelle dans une b
 
 <br>
 
-1. **each.index**
+1. **each.key**
 2. each.value
 3. var.value
+4. each.index
 
 ##==##
 
@@ -40,9 +79,10 @@ _Question_ : Quelle expression permet de récupérer la valeur associée dans un
 
 <br>
 
-1. each.index
+1. each.key
 2. each.value
 3. var.value
+4. each.index
 
 ##==##
 
@@ -56,9 +96,10 @@ _Question_ : Quelle expression permet de récupérer la valeur associée dans un
 
 <br>
 
-1. each.index
+1. each.key
 2. **each.value**
 3. var.value
+4. each.index
 
 ##==##
 

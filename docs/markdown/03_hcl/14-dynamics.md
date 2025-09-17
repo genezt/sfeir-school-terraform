@@ -79,3 +79,5 @@ Vous pouvez spécifier un autre nom pour cette variable avec "iterator = *name*"
 
 Notes:
 Intéret = générer dynamiquement des nested-blocks à partir de variables, de datasources ou d'autres resources
+
+Example: entre dev et prod si vous avez une règle en plus

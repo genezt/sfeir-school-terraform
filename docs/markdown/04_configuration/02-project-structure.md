@@ -37,6 +37,10 @@ Il n’y a pas de normes imposées par l’outil mais un ensemble de bonnes prat
 * L’utilisation d’un .editorconfig permet aux développeurs d’utiliser un même format
 * Pour aller plus loin : [Style guide Hashicorp](https://developer.hashicorp.com/terraform/language/style)
 
+Notes:
+
+Expliquer .editorconfig l'utilité entre les devs, les teams etc
+
 ##==##
 
 # Configuration de l’environnement de développement

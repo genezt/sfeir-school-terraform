@@ -64,3 +64,5 @@ Exemple d’utilisation :
 ```
 Notes:
 Certaines fonctions sont issues de providers basiques qui ont été intégrés en tant que fonction "builtin" (ex: templatefile)
+
+Pour faire ses propres functions, il faut faire son provider en go

@@ -6,6 +6,9 @@
 
 Terraform permet de déployer plusieurs ressources de même type via une unique déclaration en utilisant le “meta-argument" for_each(ou count).<br>
 ```hcl-terraform
+variable "instance_count" {
+  default = 3
+}
 resource "google_compute_instance" "inst" {
   count        = var.instance_count
   name         = "server-${count.index}"
@@ -14,6 +17,10 @@ resource "google_compute_instance" "inst" {
 }
 ```
 ![h-300 center](./assets/images/hil_boucle.png)
+
+Notes:
+value for count.index - starting with zero
+Donc cela va créer 0 - 1 - 2
 
 ##==##
 

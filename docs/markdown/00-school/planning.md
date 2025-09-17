@@ -103,11 +103,9 @@
 
 <br>
 
-TODO remplacer les liens et qr code pour access github
+<https://github.com/genezt/sfeir-school-terraform>
 
-<https://github.com/sfeir-open-source/sfeir-school-terraform>
-
-<https://sfeir-open-source.github.io/sfeir-school-terraform>
+<https://genezt.github.io/sfeir-school-terraform>
 
 <https://console.cloud.google.com>
 
