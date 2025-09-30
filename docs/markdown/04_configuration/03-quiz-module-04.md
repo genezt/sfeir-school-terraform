@@ -11,7 +11,9 @@ _Question_ : Est-il possible d’utiliser 2 ressources de même type et nom dans
 1. Oui
 2. Non
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 
@@ -26,7 +28,9 @@ _Question_ : Est-il possible d’utiliser 2 ressources de même type et nom dans
 1. Oui
 2. **Non**
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 
@@ -43,7 +47,9 @@ _Question_ : Comment déployer, mettre à jour ou supprimer une ressource parmis
 3. En créant un nouveau dossier contenant la déclaration de la ressource
 4. Ce n’est pas possible
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 

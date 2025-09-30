@@ -13,7 +13,9 @@ _Question_ : Dans quel langage est développé Terraform ?
 3. Golang
 4. PHP
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 
@@ -30,7 +32,9 @@ _Question_ : Dans quel langage est développé Terraform ?
 3. **Golang**
 4. PHP
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 
@@ -48,7 +52,9 @@ _Question_ : Comment observer le déploiement d'une infrastructure sans l'exécu
 4. terraform plan
 5. terraform show
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 
@@ -66,7 +72,9 @@ _Question_ : Comment observer le déploiement d'une infrastructure sans l'exécu
 4. **terraform plan**
 5. terraform show (visualisation lisible d'un plan ou d'un state)
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 
@@ -81,7 +89,9 @@ _Question_ : Qu'est-ce que **n'est pas** terraform ?
 1. Un outil de provisionning d'infrastructure
 2. Un outil de gestion de configuration
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 
@@ -96,7 +106,9 @@ _Question_ : Qu'est-ce que **n'est pas** terraform ?
 1. Un outil de provisionning d'infrastructure
 2. **Un outil de gestion de configuration**
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 
@@ -112,7 +124,9 @@ _Question_ : Par défaut, où est stocké le fichier d'état de Terraform ?
 2. Localement, dans le dossier courant
 3. Sur un espace de stockage distant
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 
@@ -128,7 +142,9 @@ _Question_ : Par défaut, où est stocké le fichier d'état de Terraform ?
 2. **Localement, dans le dossier courant**
 3. Sur un espace de stockage distant
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 
@@ -144,7 +160,9 @@ _Question_ : A quel endroit exécute-t-on la commande `terraform apply` ?
 2. Au niveau du module racine
 3. Dans chaque module
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 

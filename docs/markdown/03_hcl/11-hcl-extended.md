@@ -9,7 +9,9 @@ Avant la version 0.12, Terraform était composé de deux langages :
 
 Depuis la version 0.12, HCL et HIL ont fusionné.
 
+
 ##==##
+
 <!-- .slide: class="with-code-bg-dark"-->
 
 # HCL Extended
@@ -31,7 +33,9 @@ resource "aws_instance" "web" {
 }
 ```
 
+
 ##==##
+
 
 # HCL Extended
 
@@ -46,7 +50,9 @@ Il est possible de lire la valeur d’un attribut d’une ressource, d’une sou
 
 Cas d’une liste de resource : `resource_type.resource_name[<index>].attribut`
 
+
 ##==##
+
 <!-- .slide: class="with-code-bg-dark"-->
 
 # HCL Extended

@@ -1,10 +1,12 @@
-<!-- .slide:-->
+
 
 # Aperçu des différents outils de tests
 
-![h-850 center](./assets/images/g418fd663c2_0_825.png)
+![](./assets/images/g418fd663c2_0_825.png 'h-850 center')
+
 
 ##==##
+
 
 <!-- .slide: class="full-center" -->
 
@@ -12,7 +14,9 @@
 
 ![](./assets/images/tests.png)
 
+
 ##==##
+
 
 <!-- .slide: class="with-code-bg-dark"-->
 
@@ -36,7 +40,9 @@ ${element("haha"=="haha" ? list("") : list(""), 0)}
 
 <!-- .element class="big-code" -->
 
+
 ##==##
+
 
 <!-- .slide: class="with-code-bg-dark"-->
 
@@ -57,9 +63,11 @@ ${element("haha"=="haha" ? list("") : list(""), 0)}
 - Outil déprécié :
   - Module Testing Experiment (experimental features)
 
-##==##
 
-<!-- .slide: class="two-column"-->
+##==##
+<!-- .slide: class="tc-multiple-columns"-->
+
+##++##
 
 # Aperçu des différents outils de tests
 
@@ -73,11 +81,9 @@ ${element("haha"=="haha" ? list("") : list(""), 0)}
 
 <br><br>
 
-![float-center](./assets/images/g418fd663c2_0_890.png)
-
-##--##
-
-<!-- .slide: class="with-code-bg-dark"-->
+![](./assets/images/g418fd663c2_0_890.png 'float-center')
+##++##
+##++## class="with-code-bg-dark"
 
 ```ruby
 control "projects" do
@@ -97,4 +103,5 @@ control "projects" do
 end
 ```
 
-![float-center](./assets/images/g418fd663c2_0_934.png)
+![](./assets/images/g418fd663c2_0_934.png 'float-center')
+##++##

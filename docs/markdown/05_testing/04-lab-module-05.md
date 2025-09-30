@@ -6,7 +6,9 @@
 
 ### Step: [05-testing-strategies](https://github.com/sfeir-open-source/sfeir-school-terraform/tree/main/steps/gcp/05-testing-strategies)
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" data-type-show="aws" -->
 

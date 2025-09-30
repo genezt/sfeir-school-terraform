@@ -1,4 +1,4 @@
-<!-- .slide:-->
+
 
 # Gestion de la concurrence et de la persistance
 
@@ -14,7 +14,9 @@
 Notes:
 "backend" des resources au format json
 un fichier local par défaut
+
 ##==##
+
 
 # Gestion de la concurrence et de la persistance
 
@@ -26,7 +28,9 @@ Il est conseillé de ne pas le stocker localement mais sur :
 - Un stockage de fichier type Google Cloud Storage, AWS S3, … et **d'activer les options de versioning**
 - De restreindre les accès (principe du least privilege) car ce fichier peut contenir des informations sensibles (IP, clef SSH, password, ...)
 
+
 ##==##
+
 
 # Gestion de la concurrence et de la persistance
 
@@ -38,7 +42,9 @@ Il existe plusieurs types de backends :
 - remote (nécessite Terraform Cloud)
 - s3, gcs, azurerm, http, consul, etcd, ...
 
+
 ##==##
+
 
 <!-- .slide: class="with-code-bg-dark"-->
 
@@ -62,7 +68,9 @@ terraform {
 
 
 
+
 ##==##
+
 
 # Gestion de la concurrence et de la persistance
 
@@ -76,7 +84,9 @@ Terraform propose la commande **terraform force-unlock** si mon déploiement res
 
 Notes:
 Dans AWS le lock du tfstate est souvent géré dans DynamoDB lorsque le tfstate est stocké dans un bucket s3
+
 ##==##
+
 
 # Manipulation du fichier d’état
 

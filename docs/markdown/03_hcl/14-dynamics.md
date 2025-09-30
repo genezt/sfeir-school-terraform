@@ -27,7 +27,9 @@ Ce "lifecycle_rule" n'est pas pas un simple attribut qui accepte un map, mais c'
 Notes:
 Généralement, ces blocs peuvent être présent plusieurs fois dans une même resource (pour définir plusieurs life_cycle_rule dans l'example).
 
+
 ##==##
+
 <!-- .slide: class="with-code-bg-dark"-->
 
 # HCL Extended
@@ -47,7 +49,9 @@ variable "lifecycle_rules" {
 }
 ```
 
+
 ##==##
+
 <!-- .slide: class="with-code-bg-dark"-->
 
 # HCL Extended

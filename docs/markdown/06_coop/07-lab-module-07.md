@@ -6,7 +6,9 @@
 
 ### Step: [06-team-working](https://github.com/sfeir-open-source/sfeir-school-terraform/tree/main/steps/gcp/06-team-working)
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" data-type-show="aws" -->
 

@@ -1,4 +1,4 @@
-<!-- .slide:  -->
+
 
 # Les objectifs de la formation
 
@@ -10,7 +10,9 @@
 - Déploiement automatisé de l’infrastructure
 - Développement de providers communautaires
 
+
 ##==##
+
 
 # Déroulement de la formation
 
@@ -22,7 +24,9 @@
 - Historique Terraform
 - Les versions majeures de Terraform
 
+
 ##==##
+
 
 # Déroulement de la formation
 
@@ -35,7 +39,9 @@
 - Découverte de HCL (Hashicorp Configuration Language)
 - Atelier: Installation et découverte de HCL
 
+
 ##==##
+
 
 # Déroulement de la formation
 
@@ -53,7 +59,9 @@
 - Boucle et conditions
 - Atelier: Utilisation avancée des interpolations
 
+
 ##==##
+
 
 # Déroulement de la formation
 
@@ -67,7 +75,9 @@
 - Configuration locale
 - Atelier: Configuration de l’environnement de développement
 
+
 ##==##
+
 
 # Déroulement de la formation
 
@@ -79,7 +89,9 @@
 - L’exemple de inspec, inspec-iggy et kitchen-terrraform
 - Atelier: Intégration continue avec Terraform
 
+
 ##==##
+
 
 
 # Déroulement de la formation
@@ -95,7 +107,9 @@
 - Templating
 - Atelier: Développement d'un module de déploiement d'environnements
 
+
 ##==##
+
 
 <!-- .slide: data-type-show="gcp prez" -->
 

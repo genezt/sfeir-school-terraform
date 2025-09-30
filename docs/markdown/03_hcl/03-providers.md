@@ -10,7 +10,9 @@ Le provider fournit un ensemble de primitives permettant de lire, créer, modifi
 * Les variables utilisées pour configurer les providers doivent être calculables avant un plan
 * Il est fortement conseillé d'utiliser des variables d'environnement pour configurer l'authentification des providers
 
+
 ##==##
+
 <!-- .slide: class="with-code-bg-dark" -->
 
 # HashiCorp Configuration Language (HCL)

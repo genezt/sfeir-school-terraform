@@ -14,7 +14,9 @@ _Question_ : Comment assigner des valeurs aux variables lors de l'exécution d�
 4. export TF_VAR_key=value; terraform \<action>
 5. en ajoutant un fichier \*.auto.tfvars dans le répertoire courant
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 
@@ -37,7 +39,9 @@ Attention, l’ordre des variables à une importance. Les CLI sont toujours prio
 Notes:
 Values passed within definition files or with -var will take precedence over TF*VAR* environment variables, as environment variables are considered defaults.
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 
@@ -54,7 +58,9 @@ _Question_ : A quoi sert la chaîne de caractères qui suit le type d’une ress
 3. ce n’est pas encore utilisé
 4. à remplacer l’UID de la ressources si elle est définie
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 
@@ -71,7 +77,9 @@ _Question_ : A quoi sert la chaîne de caractères qui suit le type d’une ress
 3. ce n’est pas encore utilisé
 4. à remplacer l’UID de la ressources si elle est définie
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 
@@ -88,7 +96,9 @@ _Question_ : Quel est le comportement de Terraform lors du prochain apply si une
 3. Terraform va ignorer la ressource
 4. Une erreur à la compilation
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 
@@ -105,7 +115,9 @@ _Question_ : Quel est le comportement de Terraform lors du prochain apply si une
 3. Terraform va ignorer la ressource
 4. Une erreur à la compilation
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 
@@ -121,7 +133,9 @@ _Question_ : Quelle est la particularité d'une variable de type _object_ ?
 2. Ce n'est pas la plus utilisée
 3. Peut contenir de nombreux types différents
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 

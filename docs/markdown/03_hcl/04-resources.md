@@ -19,7 +19,9 @@ resource "google_compute_firewall" "default" {
 }
 ```
 
+
 ##==##
+
 
 # HashiCorp Configuration Language (HCL)
 

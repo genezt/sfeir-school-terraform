@@ -1,4 +1,4 @@
-<!-- .slide:-->
+
 
 # HashiCorp Certified: Terraform Associate
 
@@ -15,7 +15,9 @@
 
 [https://www.hashicorp.com/certification/terraform-associate](https://www.hashicorp.com/certification/terraform-associate)
 
+
 ##==##
+
 
 # HashiCorp Certified: Terraform Authoring and Operations Professional
 
@@ -33,7 +35,9 @@
 
 [https://www.hashicorp.com/certification/terraform-associate](https://www.hashicorp.com/certification/terraform-associate)
 
+
 ##==##
+
 
 # Ressources
 

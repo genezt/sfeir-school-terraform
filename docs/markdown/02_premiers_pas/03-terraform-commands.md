@@ -1,4 +1,4 @@
-<!-- .slide:-->
+
 
 # Utilisation
 
@@ -17,7 +17,9 @@ Cette commande est nécessaire d’être joué dans chaque nouveau dossier mais 
 
 Elle permet également la migration d’un fichier d’état d’un support vers un autre (cf module gestion du fichier d’état).
 
+
 ##==##
+
 
 # Utilisation
 
@@ -31,7 +33,9 @@ Cette commande est utilisée pour télécharger les modules hébergés hors du r
 Les modules ainsi téléchargés seront stockés dans le dossier “.terraform” du répertoire courant (appelé root module).
 En général non utilisé car intégré à la commande terraform init
 
+
 ##==##
+
 
 # Utilisation
 
@@ -51,7 +55,9 @@ Le résultat peut être exporté en utilisant l’argument “-out” pour une a
 
 Terraform ne modifie/crée que les ressources qui nécessitent une modification.
 
+
 ##==##
+
 
 # Utilisation
 
@@ -59,7 +65,9 @@ Terraform ne modifie/crée que les ressources qui nécessitent une modification.
 
 Lors de l'exécution de cette commande, terraform effectue les appels APIs sur le provider pour créer/modifier/supprimer les ressources.
 
+
 ##==##
+
 
 # Utilisation
 
