@@ -12,7 +12,9 @@ _Question_ : Quelle expression permet de récupérer la position actuelle dans u
 3. var.value
 4. each.index
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 
@@ -29,7 +31,9 @@ _Question_ : Quelle expression permet de récupérer la position actuelle dans u
 3. var.value
 4. **each.index**
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 
@@ -50,7 +54,9 @@ _Question_ : Quelle expression permet de récupérer la clé actuelle dans une b
 3. var.value
 4. each.index
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 
@@ -67,7 +73,9 @@ _Question_ : Quelle expression permet de récupérer la clé actuelle dans une b
 3. var.value
 4. each.index
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 
@@ -84,7 +92,9 @@ _Question_ : Quelle expression permet de récupérer la valeur associée dans un
 3. var.value
 4. each.index
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 
@@ -101,7 +111,9 @@ _Question_ : Quelle expression permet de récupérer la valeur associée dans un
 3. var.value
 4. each.index
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 
@@ -118,7 +130,9 @@ _Question_ : Comment obtenir un élément d’une liste ?
 3. list[position]
 4. lookup(var.list, position)
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 

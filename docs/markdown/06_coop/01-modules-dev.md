@@ -1,4 +1,4 @@
-<!-- .slide:-->
+
 
 # Modules
 
@@ -10,7 +10,9 @@
 
 
 
+
 ##==##
+
 
 # Modules
 
@@ -27,7 +29,9 @@ Hashicorp met à disposition un ensemble de modules officiels sur sa propre regi
 
 Notes: 
 Plus de 18000 modules actuellement disponibles sur la registry publique
+
 ##==##
+
 <!-- .slide: class="with-code-bg-dark" -->
 
 # Modules
@@ -52,7 +56,9 @@ module "gke-regional" {
 }
 ```
 
+
 ##==##
+
 
 # Modules
 
@@ -66,7 +72,9 @@ module "gke-regional" {
 * N'hésitez pas à passer les resources de vos providers
 
 
+
 ##==##
+
 
 # Modules
 

@@ -12,7 +12,9 @@ _Question_ : Quel est le comportement de Terraform lorsqu’une ressource est su
 2. Rien
 3. Terraform propose de recréer la ressource
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 
@@ -28,7 +30,9 @@ _Question_ : Quel est le comportement de Terraform lorsqu’une ressource est su
 2. Rien
 3. **Terraform propose de recréer la ressource**
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 
@@ -45,7 +49,9 @@ _Question_ : Que fait la commande : `terraform state rm <resource-path>`
 3. Elle supprime l’objet créé
 4. La commande n’existe pas
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 
@@ -62,7 +68,9 @@ _Question_ : Que fait la commande : `terraform state rm <resource-path>`
 3. Elle supprime l’objet créé
 4. La commande n’existe pas
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 
@@ -77,7 +85,9 @@ _Question_ : Comment obtenir la valeur d’un attribut d’une ressource créée
 1. En utilisant module.\<name\>.\<output-name\>
 2. En utilisant module.\<name\>.\<resource-type\>.\<name\>.\<attribut\>
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 

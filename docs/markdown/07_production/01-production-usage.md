@@ -1,4 +1,4 @@
-<!-- .slide:-->
+
 
 # Force re-create
 
@@ -18,7 +18,9 @@ Raccourcis disponible pour taint lors du plan/apply avec l'option `-replace`
 - terraform apply -var-file=file -replace=aws_volume.data_ebs
   <br> <span style="color:green"># Recréation lors d'un apply</span>
 
+
 ##==##
+
 
 # Force re-create
 
@@ -27,7 +29,9 @@ Raccourcis disponible pour taint lors du plan/apply avec l'option `-replace`
 - Permet à l’utilisateur d’importer une ressource existante dans le fichier d’état
 - terraform import google_compute_project_metadata_item.default ssh-keys
 
+
 ##==##
+
 
 <!-- .slide: class="with-code-bg-dark"-->
 
@@ -47,7 +51,9 @@ resource "null_resource" "upper" {
 
 
 
+
 ##==##
+
 
 # null_resource et provisioners
 
@@ -62,7 +68,9 @@ Les provisioners permettent d’executer des scripts durant les phases de créat
 - https://www.terraform.io/docs/provisioners/index.html
 - Un provisionner non officiel Ansible existe mais n'est pas référencé sur le site officiel (https://github.com/radekg/terraform-provisioner-ansible)
 
+
 ##==##
+
 
 <!-- .slide: class="with-code-bg-dark"-->
 
@@ -82,7 +90,9 @@ resource "null_resource" "register" {
 
 
 
+
 ##==##
+
 
 # Debugging
 

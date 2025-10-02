@@ -21,7 +21,9 @@ output "google_sql_database_instance" {
 }
 ```
 
+
 ##==##
+
 <!-- .slide: class="with-code-bg-dark"-->
 
 # Modules
@@ -47,7 +49,9 @@ output "google_sql_database" {
 
 ```
 
+
 ##==##
+
 <!-- .slide: class="with-code-bg-dark"-->
 
 # Modules

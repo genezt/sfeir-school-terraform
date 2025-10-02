@@ -1,4 +1,4 @@
-<!-- .slide: -->
+
 # Configuration de l’environnement de développement
 
 ## Gestion des fichiers et bonnes pratiques
@@ -25,7 +25,9 @@ Il n’y a pas de normes imposées par l’outil mais un ensemble de bonnes prat
 └── variables.tf
 ```
 
+
 ##==##
+
 <!-- .slide: class="with-code-bg-dark"-->
 
 # Configuration de l’environnement de développement
@@ -41,7 +43,9 @@ Notes:
 
 Expliquer .editorconfig l'utilité entre les devs, les teams etc
 
+
 ##==##
+
 
 # Configuration de l’environnement de développement
 

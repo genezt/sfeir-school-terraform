@@ -1,4 +1,4 @@
-<!-- .slide:-->
+
 
 # HashiCorp Configuration Language (HCL)
 
@@ -6,7 +6,9 @@
 
 Langage de configuration développé par HashiCorp et ré-utilisé dans ses différents produits. Uniquement déclaratif, il est associé au HIL (HashiCorp Interpolation Language) lorsqu’il faut calculer des valeurs.
 
+
 ##==##
+
 
 # HashiCorp Configuration Language (HCL)
 
@@ -17,7 +19,9 @@ Langage de configuration développé par HashiCorp et ré-utilisé dans ses diff
 * Les valeurs sont assignées avec cette syntaxe : `key = value`
 * Multi-line via <<EOF … EOF
 
+
 ##==##
+
 
 <!-- .slide: class="with-code-bg-dark" -->
 

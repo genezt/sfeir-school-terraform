@@ -16,13 +16,15 @@ resource "google_compute_instance" "inst" {
   zone         = "us-central1-a"
 }
 ```
-![h-300 center](./assets/images/hil_boucle.png)
+![](./assets/images/hil_boucle.png 'h-300 center')
 
 Notes:
 value for count.index - starting with zero
 Donc cela va créer 0 - 1 - 2
 
+
 ##==##
+
 
 <!-- .slide: class="with-code-bg-dark"-->
 

@@ -1,4 +1,4 @@
-<!-- .slide:-->
+
 
 # HashiCorp Configuration Language (HCL)
 
@@ -17,7 +17,9 @@ HCL a de nombreux types de variable comme :
 Notes:
 Contrairement à la map, tous les champs d'un object sont de même type
 
+
 ##==##
+
 
 <!-- .slide: class="with-code-bg-dark" -->
 
@@ -44,7 +46,9 @@ num_cpu = var.num_cpu      // préconisé
 tags    = "tag:${var.tag}" // avec expansion
 ```
 
+
 ##==##
+
 <!-- .slide: class="with-code-bg-dark" -->
 
 # HashiCorp Configuration Language (HCL)
@@ -71,7 +75,9 @@ variable "id" {
 }
 ```
 
+
 ##==##
+
 <!-- .slide: class="with-code-bg-dark" -->
 # HashiCorp Configuration Language (HCL)
 
@@ -85,7 +91,9 @@ Les variables supportent les attributs suivant :
 * **validation** : permet de rejeter une valeur si elle ne respecte pas les conditions
 * **sensitive** : interdit l'affichage de la valeur au travers d'outputs et masque son contenu dans la console
 
+
 ##==##
+
 <!-- .slide: class="with-code-bg-dark" -->
 
 # HashiCorp Configuration Language (HCL)

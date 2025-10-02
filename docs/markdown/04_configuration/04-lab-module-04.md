@@ -6,7 +6,9 @@
 
 ### Step: [04-tooling](https://github.com/sfeir-open-source/sfeir-school-terraform/tree/main/steps/gcp/04-tooling)
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" data-type-show="aws" -->
 

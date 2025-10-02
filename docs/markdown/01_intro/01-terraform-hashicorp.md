@@ -2,7 +2,7 @@
 
 # Introduction à Terraform
 
-![h-800](./assets/images/g418fd663c2_0_148.png)
+![](./assets/images/g418fd663c2_0_148.png 'h-800')
 
 Notes:
 (vault)
@@ -25,7 +25,9 @@ Learn to create development environments with Vagrant
 (packer)
 Learn to build automated machine images with Packer
 
+
 ##==##
+
 
 # Introduction à Terraform
 
@@ -51,11 +53,13 @@ Multiples plateformes d’hébergements => Utiliser le meilleur de chaque cloud 
 
 Réduire les coûts => Dé-allouer sans risques les ressources inutiles, créer des environnements éphémères (build CI), ...
 
+
 ##==##
+
 
 # Introduction à Terraform
 
-![h-500 float-left](./assets/images/g418fd663c2_0_187.png)
+![](./assets/images/g418fd663c2_0_187.png 'h-500 float-left')
 
 <br><br><br><br>
 Write, Plan, and Create Infrastructure as Code

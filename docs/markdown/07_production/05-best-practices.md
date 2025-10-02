@@ -1,4 +1,4 @@
-<!-- .slide:-->
+
 
 # Les "Best practices"
 Les *Best Pratices* relative à **Terraform** sont plus un condensé provenant de diverses sources telles que le site officiel d'**Hashicorp**, d'**AWS** ou d'**Azure** et recommandent les éléments suivants :
