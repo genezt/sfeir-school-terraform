@@ -35,14 +35,14 @@ provider "google" {
 }
 
 resource "google_compute_instance" "instance" {
- name         = "demo"
+ name = "demo"
  machine_type = "n1-standard-1"
- zone         = "europe-west1-a"
- tags         = ["web"]
+ zone = "europe-west1-a"
+ tags = ["web"]
  boot_disk {
-   initialize_params {
-     image = "debian-cloud/debian-12"
-   }
+    initialize_params {
+      image = "debian-cloud/debian-12"
+    }
  }
 }
 ```
