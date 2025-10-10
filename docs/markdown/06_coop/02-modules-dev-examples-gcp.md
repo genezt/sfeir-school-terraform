@@ -1,16 +1,37 @@
+<!-- .slide: class="with-code-bg-dark"-->
+
+# Modules
+
+## Structure du dossier
+
+```
+terraform-module/
+├── modules/
+│   ├── sql_database/
+│   │   ├── main.tf
+│   │   ├── output.tf
+│   │   └── variables.tf
+│   └── sql_instance/
+│       ├── main.tf
+│       ├── output.tf
+│       └── variables.tf
+└── main.tf
+```
+
+##==##
 
 <!-- .slide: class="with-code-bg-dark"-->
 
 # Modules
 
-## In the instance module
+## Dans l'instance module
 
 ```hcl-terraform
 resource "google_sql_database_instance" "instance" {
   name             = "my_postgresql_instance"
   database_version = "POSTGRES_14"
   settings {
-    tier            = "db-custom-1-3840
+    tier            = "db-custom-1-3840"
     disk_autoresize = "true"
     disk_type       = "PD_SSD"
   }
@@ -28,7 +49,7 @@ output "google_sql_database_instance" {
 
 # Modules
 
-## In the database module
+## Dans le database module
 
 ```hcl-terraform
 variable "google_sql_database_instance" {
@@ -56,7 +77,7 @@ output "google_sql_database" {
 
 # Modules
 
-## In the calling project
+## Dans le projet terraform appelant
 
 ```hcl-terraform
 module "instance" {
