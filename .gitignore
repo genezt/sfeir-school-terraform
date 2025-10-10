@@ -76,3 +76,6 @@ terraform.tfstate
 terraform.tfstate.backup
 .terraform.lock.hcl
 .terraform.tfstate.lock.info
+
+
+school-terraform-oct25-sbx-account-service.json

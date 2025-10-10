@@ -7,6 +7,17 @@
 Take a look on [https://registry.terraform.io/providers/hashicorp/google/latest/docs/guides/provider_reference](https://registry.terraform.io/providers/hashicorp/google/latest/docs/guides/provider_reference).
 
 Google provider accepts multiple configuration to set credentials. Because you are in Cloud Shell, Google Application Default Credentials are already set.
+
+#### use account service credential
+
+Run on system
+```shell
+gcloud auth activate-service-account --key-file="....../school-terraform-oct25-sbx-account-service.json"
+
+gcloud config set project school-terraform-oct25-sbx
+```
+
+#### use default login if account user
 ⚠️ If you run on you local machine, it's recommended to do the same using :
 
 ```shell
