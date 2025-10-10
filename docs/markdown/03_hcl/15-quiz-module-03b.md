@@ -1,18 +1,43 @@
 <!-- .slide: class="exercice" -->
+## Quiz
+
+<br>
+
+_Question_ : Quelle expression permet de récupérer la position actuelle dans un count
+
+<br>
+
+1. each.key
+2. each.value
+3. var.value
+4. each.index
+
+
+##==##
+
+
+<!-- .slide: class="exercice" -->
 
 ## Quiz
 
 <br>
 
-_Question_ : Quelle expression permet de récupérer la clé actuelle dans une boucle for_each
+_Question_ : Quelle expression permet de récupérer la position actuelle dans un count
 
 <br>
 
-1. each.index
+1. each.key
 2. each.value
 3. var.value
+4. **each.index**
+
 
 ##==##
+
+
+<!-- .slide: class="exercice" -->
+
+
 
 <!-- .slide: class="exercice" -->
 
@@ -24,11 +49,33 @@ _Question_ : Quelle expression permet de récupérer la clé actuelle dans une b
 
 <br>
 
-1. **each.index**
+1. each.key
 2. each.value
 3. var.value
+4. each.index
+
 
 ##==##
+
+
+<!-- .slide: class="exercice" -->
+
+## Quiz
+
+<br>
+
+_Question_ : Quelle expression permet de récupérer la clé actuelle dans une boucle for_each
+
+<br>
+
+1. **each.key**
+2. each.value
+3. var.value
+4. each.index
+
+
+##==##
+
 
 <!-- .slide: class="exercice" -->
 
@@ -40,11 +87,14 @@ _Question_ : Quelle expression permet de récupérer la valeur associée dans un
 
 <br>
 
-1. each.index
+1. each.key
 2. each.value
 3. var.value
+4. each.index
+
 
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 
@@ -56,11 +106,14 @@ _Question_ : Quelle expression permet de récupérer la valeur associée dans un
 
 <br>
 
-1. each.index
+1. each.key
 2. **each.value**
 3. var.value
+4. each.index
+
 
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 
@@ -77,7 +130,9 @@ _Question_ : Comment obtenir un élément d’une liste ?
 3. list[position]
 4. lookup(var.list, position)
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 

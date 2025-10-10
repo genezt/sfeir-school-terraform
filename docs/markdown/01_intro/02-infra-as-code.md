@@ -11,7 +11,9 @@
   * imposer une configuration identique quelque soit l’environnement
   * mettre à jour massivement
 
+
 ##==##
+
 
 # Introduction à Terraform
 
@@ -38,7 +40,9 @@ Documentation : Le code est lisible et commenté
 Testing : chaque ressource est testée et correspond au besoin fonctionnel; framework de tests (unitaire + intégration) intégré au langage HCL depuis la v1.6
 
 
+
 ##==##
+
 
 # Introduction à Terraform
 
@@ -50,7 +54,9 @@ Testing : chaque ressource est testée et correspond au besoin fonctionnel; fram
 
 Notes:
   Fournir aux équipes de dev dans l'entreprise des modèles de déploiement de composants en "self-service"
+
 ##==##
+
 
 # Introduction à Terraform
 
@@ -59,13 +65,15 @@ Notes:
 Notes:
 Le dévelopeur a, à sa disposition, un ensemble de modules développés par les équipes d’infrastructure pour déployer ses environnements/applications tout en respectant les règles de sécurité et d’urbanisation
 
+
 ##==##
+
 
 # Terraform
 
 ## Produit Open-source
 
-![float-left h-200](./assets/images/g418fd663c2_0_224.png)
+![](./assets/images/g418fd663c2_0_224.png 'float-left h-200')
 
 * <https://github.com/hashicorp/terraform>
 
@@ -83,7 +91,9 @@ En désaccord avec hashicorp, un fork opensource a été initié par la communau
 Même fonctionnalités / syntaxe que la version originale 
 Principales différences : évaluation anticipée des variables et chiffrement natif du tfstate
 
+
 ##==##
+
 
 <!-- .slide: class="flex-row"-->
 
@@ -100,18 +110,22 @@ Le Workflow de déploiement quand à lui restera identique c’est pour cela qu�
 
 Terraform est multi provider, il peut créer des ressources autant sur des plateformes cloud (AWS, GCP, Azure, …) que sur des plateformes PAAS (Github, Heroku, …)
 
+
 ##==##
+
 <!-- .slide: class="flex-row"-->
 
 # La théorie des graphes
 
-![h-700](./assets/images/g418fd663c2_0_305.png)
+![](./assets/images/g418fd663c2_0_305.png 'h-700')
 
 Notes:
 Terraform analyse les ressources et dépendances puis construit un graphe puis provisionne les noeux des feuilles vers le sommet. Si l’arbre ne peut pas être construit, terraform retournera une erreur lors de l’analyse.
 On peut le visualiser via la commande terraform graph / ou en augmentant le niveau de log de terraform (TF_LOG=debug)
 
+
 ##==##
+
 <!-- .slide -->
 
 # Gestion des versions dans Terraform
@@ -133,7 +147,9 @@ Notes:
 Expliquer l'historique des versions
 
 
+
 ##==##
+
 <!-- .slide -->
 
 # Pourquoi une 1.0.0 ?

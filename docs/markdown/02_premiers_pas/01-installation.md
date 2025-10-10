@@ -1,4 +1,4 @@
-<!-- .slide:  -->
+
 # Installation
 
 - Binaires disponibles sur le [site officiel]("https://developer.hashicorp.com/terraform/install") (disponible pour tous les OS)
@@ -11,14 +11,16 @@
   - [asdf](https://github.com/asdf-community/asdf-hashicorp)
 - Déjà pré-installé dans le Google Cloud Shell
 
-![w-1000 center](./assets/images/g418fd663c2_0_272.png)
+![](./assets/images/g418fd663c2_0_272.png 'w-1000 center')
 
 Notes:
 Le logiciel est sous la forme d’un binaire (pré-compilé pour différents OS).
 
 La communauté a quitté **tfenv** pour **tenv** qui devient aussi gestionnaire OpenTofu et Terragrunt en plus de Terraform
 
+
 ##==##
+
 
 # Le choix de l'IDE
 

@@ -1,18 +1,20 @@
 <!-- .slide: class="speaker-slide" -->
 
+<div class="speaker-slide">
+
 # Présentation
 
-![speaker](./assets/images/speakers/ame.png)
-![company](./assets/images/logo-sfeir-blanc.png)
+![](./assets/images/speakers/ame.png 'speaker')
 
+![](./assets/images/logo-sfeir-blanc.png 'company')
 
 <h2> Antoine <span>Méausoone</span></h2>
 
 ### Cloud Architect
-<!-- .element: class="icon-rule icon-first" -->
 
 ### @ameausoone
-<!-- .element: class="icon-second" -->
 
 ### meausoone.a@sfeir.com
-<!-- .element: class="icon-third" -->
+
+</div>
+

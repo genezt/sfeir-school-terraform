@@ -8,7 +8,9 @@ Notes:
 liste des features sur :
 <https://www.hashicorp.com/products/terraform/offerings>
 
+
 ##==##
+
 
 # Présentation de l’offre pour les entreprises Terraform Cloud
 
@@ -18,7 +20,9 @@ Notes:
 liste des features sur :
 <https://www.hashicorp.com/products/terraform/offerings>
 
+
 ##==##
+
 
 # Présentation des offres
 
@@ -37,7 +41,9 @@ liste des features sur :
 - Private installation
 - Clustering et Haute Disponibilité
 
+
 ##==##
+
 <!-- .slide: class="with-code-bg-dark"-->
 
 # Sentinel
@@ -64,7 +70,9 @@ main = rule {
 }
 ```
 
+
 ##==##
+
 
 # Cost Estimation
 
@@ -72,4 +80,4 @@ Dans une approche FinOps, il est interessant lors de chaque déploiement d'estim
 
 Cette fonctionalité est disponible dans le package **Terraform Cloud Team & Governance** (AWS, GCP, Azure uniquement)
 
-![center](./assets/images/cost-estimation-run.png)
+![](./assets/images/cost-estimation-run.png 'center')

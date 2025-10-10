@@ -1,4 +1,4 @@
-<!-- .slide:-->
+
 
 # Templating
 
@@ -14,7 +14,9 @@ Notes:
 Il y a plusieurs types de templating utilisable avec Terraform : Terragrunt ou Handlebars.
 Terraform propose également son propre modèle de templating (c'est sur celui-ci que nous nous concentrerons)
 
+
 ##==##
+
 
 # Templating
 
@@ -29,7 +31,9 @@ De plus, cela peut convenir a certaines bonnes pratiques telles que :
 Notes:
 Les child resources sont des resources ayant besoin d'une autre ressource pour être déployées.
 
+
 ##==##
+
 <!-- .slide: class="with-code-bg-dark"-->
 
 # Templating
@@ -50,7 +54,9 @@ variable "instance_name" {}
 variable "project" {}
 ```
 
+
 ##==##
+
 <!-- .slide: class="with-code-bg-dark"-->
 
 # Templating
@@ -74,7 +80,9 @@ databases = [
 ]
 ```
 
+
 ##==##
+
 <!-- .slide: class="with-code-bg-dark"-->
 
 # Templating
@@ -92,7 +100,9 @@ resource "google_sql_database" "database" {
 }
 ```
 
+
 ##==##
+
 
 # Templating
 

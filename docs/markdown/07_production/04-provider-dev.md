@@ -1,4 +1,4 @@
-<!-- .slide: -->
+
 
 # Développement et utilisation de providers communautaires
 
@@ -9,7 +9,9 @@ Il est possible de développer ses propres providers en Golang
 - Étendre le périmètre aux applications de l’entreprise
 - Aider la communauté à supporter d’avantage de produit
 
+
 ##==##
+
 
 # Développement et utilisation de providers communautaires
 
@@ -25,7 +27,9 @@ https://www.terraform.io/docs/extend/writing-custom-providers.html
 
 - data_source_name.go : Un data source est une ressource qui n’implémente qu’une fonction READ
 
+
 ##==##
+
 
 # Développement et utilisation de providers communautaires
 

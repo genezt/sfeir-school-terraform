@@ -85,4 +85,4 @@ Create new Makefile directive:
 
 #### Tips
 
-Command in Makefile directive must begin with tabulation caracter (not 2 or 4 spaces).
+Command in Makefile directive must begin with tabulation character (not 2 or 4 spaces).

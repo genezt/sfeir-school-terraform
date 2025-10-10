@@ -13,7 +13,9 @@ _Question_ : Dans quel cas un `terraform plan` fonctionne mais pas un `terraform
 3. Une variable n’a pas de valeur
 4. La ressource existe déjà
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 

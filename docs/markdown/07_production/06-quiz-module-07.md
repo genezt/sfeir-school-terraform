@@ -13,7 +13,9 @@ _Question_ : Lors de l’utilisation de terraform taint, que se passe-t-il pour 
 3. Cela dépend des attributs de la dépendance (recréées ou modifiées)
 4. Rien
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 
@@ -30,7 +32,9 @@ _Question_ : Lors de l’utilisation de terraform taint, que se passe-t-il pour 
 3. **Cela dépend des attributs de la dépendance (recréées ou modifiées)**
 4. Rien
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 
@@ -47,7 +51,9 @@ _Question_ : Quelle réponse est une alternative aux workspace ?
 3. Ne pas utiliser de remote backend
 4. Utiliser Terraform Cloud
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 
@@ -66,7 +72,9 @@ _Question_ : Quelle réponse est une alternative aux workspace ?
 4. **Utiliser Terraform Cloud**<br>
    <span style="color:green">Terraform Cloud connecte le VCS à son propre mécanisme de CD, il n’est plus nécessaire de créer un pipeline de CD.</span>
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 
@@ -82,7 +90,9 @@ _Question_ : Une nouvelle fonctionnalité est disponible chez mon Cloud Provider
 2. Créer mon propre provider
 3. Contribuer
 
+
 ##==##
+
 
 <!-- .slide: class="exercice" -->
 

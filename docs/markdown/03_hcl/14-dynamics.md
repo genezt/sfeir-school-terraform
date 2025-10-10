@@ -27,7 +27,9 @@ Ce "lifecycle_rule" n'est pas pas un simple attribut qui accepte un map, mais c'
 Notes:
 Généralement, ces blocs peuvent être présent plusieurs fois dans une même resource (pour définir plusieurs life_cycle_rule dans l'example).
 
+
 ##==##
+
 <!-- .slide: class="with-code-bg-dark"-->
 
 # HCL Extended
@@ -47,7 +49,9 @@ variable "lifecycle_rules" {
 }
 ```
 
+
 ##==##
+
 <!-- .slide: class="with-code-bg-dark"-->
 
 # HCL Extended
@@ -79,3 +83,5 @@ Vous pouvez spécifier un autre nom pour cette variable avec "iterator = *name*"
 
 Notes:
 Intéret = générer dynamiquement des nested-blocks à partir de variables, de datasources ou d'autres resources
+
+Example: entre dev et prod si vous avez une règle en plus

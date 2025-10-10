@@ -1,4 +1,4 @@
-<!-- .slide:-->
+
 
 # Déploiement continu
 
@@ -12,7 +12,9 @@ Cas d’utilisations :
 - Dev/QA/Production
 - Plusieurs régions
 
+
 ##==##
+
 
 # Déploiement continu
 
@@ -33,15 +35,15 @@ Cas d’utilisations :
 - $ terraform workspace delete name
   <br><span style="color:green"># Supprime un workspace</span>
 
-##==##
 
-<!-- .slide: class="two-column-layout"-->
+##==##
+<!-- .slide: class="tc-multiple-columns"-->
+
+##++##
 
 # Déploiement continu
-
-##--##
-
-<!-- .slide: class="with-code-bg-dark" -->
+##++##
+##++## class="with-code-bg-dark"
 
 ```yaml
 plan_production:
@@ -57,10 +59,8 @@ plan_production:
     - terraform workspace select prod
     - terraform plan -input=false -out=prod.tfplan
 ```
-
-##--##
-
-<!-- .slide: class="with-code-bg-dark" -->
+##++##
+##++## class="with-code-bg-dark"
 
 ```yaml
 apply_production:
@@ -73,8 +73,10 @@ apply_production:
     - terraform workspace select prod
     - terraform apply -auto-approve -input=false prod.tfplan
 ```
+##++##
 
 ##==##
+
 
 # Déploiement continu
 

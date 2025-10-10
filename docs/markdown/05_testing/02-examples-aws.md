@@ -1,23 +1,27 @@
-<!-- .slide:-->
+
 
 # L’exemple de KitchenCI + inspec
 
-![float-left w-500](./assets/images/kitchen-sample.png)
+![](./assets/images/kitchen-sample.png 'float-left w-500')
 
-![float-right mt-200](./assets/images/g418fd663c2_0_890.png)
+![](./assets/images/g418fd663c2_0_890.png 'float-right mt-200')
 
-![float-left mt-200](./assets/images/g418fd663c2_0_891.png)
+![](./assets/images/g418fd663c2_0_891.png 'float-left mt-200')
 
-![float-right mt-200](./assets/images/inspec-sample.png)
+![](./assets/images/inspec-sample.png 'float-right mt-200')
+
 ##==##
+
 
 # L’exemple de Terratest
 
-![h-650 float-left](./assets/images/terratest_sample.png)
+![](./assets/images/terratest_sample.png 'h-650 float-left')
 
-![float-left](./assets/images/terratest_logo.png)
+![](./assets/images/terratest_logo.png 'float-left')
+
 
 ##==##
+
 
 # L’exemple du Terraform Testing Framework
 

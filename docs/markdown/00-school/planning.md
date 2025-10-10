@@ -1,4 +1,4 @@
-<!-- .slide:  -->
+
 
 # Les objectifs de la formation
 
@@ -10,16 +10,9 @@
 - Déploiement automatisé de l’infrastructure
 - Développement de providers communautaires
 
-##==##
-
-# Déroulement de la formation
-
-<br>
-
-Jour 1 : Développement et bonnes pratiques<br><br>
-Jour 2 : Collaboration et production
 
 ##==##
+
 
 # Déroulement de la formation
 
@@ -31,7 +24,9 @@ Jour 2 : Collaboration et production
 - Historique Terraform
 - Les versions majeures de Terraform
 
+
 ##==##
+
 
 # Déroulement de la formation
 
@@ -44,7 +39,9 @@ Jour 2 : Collaboration et production
 - Découverte de HCL (Hashicorp Configuration Language)
 - Atelier: Installation et découverte de HCL
 
+
 ##==##
+
 
 # Déroulement de la formation
 
@@ -62,7 +59,9 @@ Jour 2 : Collaboration et production
 - Boucle et conditions
 - Atelier: Utilisation avancée des interpolations
 
+
 ##==##
+
 
 # Déroulement de la formation
 
@@ -76,7 +75,9 @@ Jour 2 : Collaboration et production
 - Configuration locale
 - Atelier: Configuration de l’environnement de développement
 
+
 ##==##
+
 
 # Déroulement de la formation
 
@@ -88,7 +89,9 @@ Jour 2 : Collaboration et production
 - L’exemple de inspec, inspec-iggy et kitchen-terrraform
 - Atelier: Intégration continue avec Terraform
 
+
 ##==##
+
 
 
 # Déroulement de la formation
@@ -104,25 +107,9 @@ Jour 2 : Collaboration et production
 - Templating
 - Atelier: Développement d'un module de déploiement d'environnements
 
-##==##
-
-# Déroulement de la formation
-
-<br>
-
-## MODULE 7 : Utilisation en production
-
-- Remplacement de resources existantes
-- Utilisation des provisioners
-- Debugging
-- Déploiement continu via Gitlab-ci
-- Présentation de l’offre pour les entreprises Terraform Cloud
-- Présentation de l'offre Terraform Enterprise
-- Développement et utilisation de providers communautaires
-- Best Practices
-- Atelier: Déploiement continu via Terraform
 
 ##==##
+
 
 <!-- .slide: data-type-show="gcp prez" -->
 
@@ -130,32 +117,13 @@ Jour 2 : Collaboration et production
 
 <br>
 
-<https://github.com/sfeir-open-source/sfeir-school-terraform>
+<https://github.com/genezt/sfeir-school-terraform>
 
-<https://sfeir-open-source.github.io/sfeir-school-terraform>
+<https://genezt.github.io/sfeir-school-terraform>
 
 <https://console.cloud.google.com>
 
 <div class="flex-row">
 <img class="h-400" src="./assets/images/g418fd663c2_0_70.png">
 <img class="h-400" src="./assets/images/g418fd663c2_0_72.png">
-</div>
-
-##==##
-
-<!-- .slide: data-type-show="aws" -->
-
-# Déroulement de la formation
-
-<br>
-
-<https://github.com/sfeir-open-source/sfeir-school-terraform>
-
-<https://sfeir-open-source.github.io/sfeir-school-terraform>
-
-<https://console.aws.amazon.com/>
-
-<div class="flex-row">
-<img class="h-400" src="./assets/images/g418fd663c2_0_70.png">
-<img style="height: 300px" class="h-400" src="./assets/images/aws_logo.png">
 </div>

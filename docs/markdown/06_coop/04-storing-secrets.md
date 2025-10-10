@@ -1,4 +1,4 @@
-<!-- .slide:-->
+
 
 # Gestion des credentials
 
@@ -11,7 +11,9 @@ Exemple :
 * AWS_ACCESS_KEY_ID
 * ...
 
+
 ##==##
+
 <!-- .slide: class="with-code-bg-dark"-->
 
 # Gestion des credentials

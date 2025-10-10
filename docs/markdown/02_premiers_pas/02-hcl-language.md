@@ -1,4 +1,4 @@
-<!-- .slide: -->
+
 
 # Le Hashicorp Configuration Language
 
@@ -10,7 +10,9 @@ Notes:
 
 - Langage de configuration développé par HashiCorp et ré-utilisé dans ses différents produits.
 
+
 ##==##
+
 
 <!-- .slide: class="with-code-bg-dark" -->
 
@@ -36,7 +38,9 @@ Notes:
 - **Attention** : Certaines ressources ont des relations particulières et nécessite le déploiement d'une ou plusieurs ressources. Dans ce cas, nous avons recours au *meta-argument* **depends_on**
 - Les dépendances entre ressources peuvent être établies de deux manières différentes : implicites ou explicites.
 
+
 ##==##
+
 
 # Les providers
 
@@ -54,13 +58,15 @@ Notes:
 - Parmis les provider non supportés officiellement par hashicorp, on peut retrouver kubectl et Artifactory
 - Il est possible de développer son propre provider en suivant le schéma de définition des providers terraform
 
+
 ##==##
+
 
 # Utilisation
 
 ## Workflow
 
-![w-1000 center](./assets/images/workflow.png)
+![](./assets/images/workflow.png 'w-1000 center')
 
 Notes:
 * terraform init : initialise le projet, télécharge providers et modules.

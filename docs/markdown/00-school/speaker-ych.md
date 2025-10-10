@@ -1,15 +1,18 @@
 <!-- .slide: class="speaker-slide" -->
 
+<div class="speaker-slide">
+
 # Présentation
 
-![speaker](./assets/images/speakers/ych.png)
-![company](./assets/images/logo-sfeir-blanc.png)
+![](./assets/images/speakers/ych.png 'speaker')
 
+![](./assets/images/logo-sfeir-blanc.png 'company')
 
 <h2> Yann <span>CHENU</span></h2>
 
 ### Architecte GCP & Trainer GCP
-<!-- .element: class="icon-rule icon-first" -->
 
 ### chenu.y@sfeir.com
-<!-- .element: class="icon-third" -->
+
+</div>
+
