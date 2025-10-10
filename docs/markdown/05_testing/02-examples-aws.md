@@ -22,6 +22,36 @@
 
 ##==##
 
+# Terraform Testing Framework
+
+Disponible depuis la v1.6.0 de Terraform.
+
+## Structure dans le dossier
+
+```
+.
+├── main.tf
+├── main.tftest.hcl
+└── terraform.tfvars (optional)
+```
+
+##==##
+
+# Terraform Testing Framework
+
+## command
+
+Lancement des tests
+```
+terraform test
+```
+
+Lancement d'un test particulier
+```
+terraform test -filter=main.tftest.hcl
+```
+
+##==##
 
 # L’exemple du Terraform Testing Framework
 
