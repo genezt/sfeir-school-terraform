@@ -78,6 +78,44 @@ _Question_ : Que fait la commande : `terraform state rm <resource-path>`
 
 <br>
 
+_Question_ : Comment déployer, mettre à jour ou supprimer une ressource parmis plusieurs sans impacter les autres ?
+
+<br>
+
+1. Utilisation du paramètre -target
+2. En commentant les autres
+3. En créant un nouveau dossier contenant la déclaration de la ressource
+4. Ce n’est pas possible
+
+
+##==##
+
+
+<!-- .slide: class="exercice" -->
+
+## Quiz
+
+<br>
+
+_Question_ : Comment déployer, mettre à jour ou supprimer une ressource parmis plusieurs sans impacter les autres ?
+
+<br>
+
+1. **Utilisation du paramètre -target**
+2. En commentant les autres
+3. En créant un nouveau dossier contenant la déclaration de la ressource
+4. Ce n’est pas possible
+
+
+##==##
+
+
+<!-- .slide: class="exercice" -->
+
+## Quiz
+
+<br>
+
 _Question_ : Comment obtenir la valeur d’un attribut d’une ressource créée dans un module ?
 
 <br>

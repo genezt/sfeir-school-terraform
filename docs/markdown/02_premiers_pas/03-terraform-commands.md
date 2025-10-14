@@ -77,3 +77,12 @@ Terraform destroy décommissionne les ressources présentes (et uniquement) dans
 
 Notes:
 Conseil : à chaque fois que l'on effectue des tests de déploiement sur un cloud public => bien penser à faire un destroy de l'infra
+
+##==##
+
+<!-- .slide: class="exercice" -->
+
+## DEMO
+
+* terraform-dependencies > implicit
+* terraform-dependencies > explicit

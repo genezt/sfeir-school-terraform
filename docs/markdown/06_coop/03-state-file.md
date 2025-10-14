@@ -109,3 +109,24 @@ on ne veut plus manager une ressource via Terraform
 on veut renommer une ressource sans devoir la re-créer (base de donnée par exemple)
 
 on veut spliter un workspace devenu trop gros en plusieurs petits workspaces
+
+##==##
+
+# Cibler une ressource spécifique
+
+Utiliser `-target` avec l'identifiant de la ressource.
+
+```bash
+terraform apply -target="google_storage_bucket.my_bucket"
+```
+
+* Par exemple, en cas de désynchronisation du state suite à un problème réseau, d'un bug sur un provider.
+* Doit rester exceptionnel.
+
+##==##
+
+<!-- .slide: class="exercice" -->
+
+## DEMO
+
+* terraform-state
