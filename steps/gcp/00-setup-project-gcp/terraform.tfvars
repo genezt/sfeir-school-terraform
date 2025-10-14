@@ -2,7 +2,9 @@ project_id = "school-terraform-oct25-sbx"
 region     = "europe-west9"
 gcp_service_list = [
   "compute.googleapis.com",
-  "cloudresourcemanager.googleapis.com"
+  "cloudresourcemanager.googleapis.com",
+  "sqladmin.googleapis.com",
+  "secretmanager.googleapis.com"
 ]
 custom_role_permissions = [
   "compute.instances.create",
@@ -28,5 +30,6 @@ service_account_roles = [
   "roles/iap.tunnelResourceAccessor",
   "roles/compute.osLogin",
   "roles/storage.admin",
-  "roles/cloudsql.admin"
+  "roles/cloudsql.admin",
+  "roles/secretmanager.admin"
 ]
