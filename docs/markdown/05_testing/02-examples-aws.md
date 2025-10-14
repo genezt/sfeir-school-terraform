@@ -30,8 +30,9 @@ Disponible depuis la v1.6.0 de Terraform.
 
 ```
 .
+├── tests/
+│   ├── main.tftest.hcl
 ├── main.tf
-├── main.tftest.hcl
 └── terraform.tfvars (optional)
 ```
 
