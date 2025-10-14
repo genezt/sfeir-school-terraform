@@ -1,17 +1,9 @@
-resource "google_compute_firewall" "dns-ingress" {
-  # project       = var.gcp_project
-  name          = "allow-dns-solution"
-  network       = "default"
-  description   = "Allow Ingress DNS from all networks"
-  target_tags   = ["dns-server"]
-  source_ranges = ["0.0.0.0/0"]
+resource "random_id" "db_name_suffix" {
+  byte_length = 4
+}
 
-  dynamic "allow" {
-    for_each = var.allowed_config
-
-    content {
-      ports    = allow.value.ports
-      protocol = allow.value.protocol
-    }
-  }
+resource "google_storage_bucket" "my_storage_bucket" {
+  name          = "${var.bucket_name}-${random_id.db_name_suffix.hex}"
+  location      = "EU"
+  force_destroy = true  # Allows deletion of non-empty buckets
 }

@@ -1,17 +1,4 @@
-variable "allowed_config" {
-  type = list(object({
-    ports    = list(string)
-    protocol = string
-  }))
-
-  default = [
-    {
-      ports    = ["53"]
-      protocol = "TCP"
-    },
-    {
-      ports    = ["53"]
-      protocol = "UDP"
-    }
-  ]
+variable "bucket_name" {
+  description = "The bucket's name"
+  default = "sfeir-sxb-terraform-school-251015"
 }

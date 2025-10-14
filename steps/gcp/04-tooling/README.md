@@ -4,34 +4,6 @@
 
 ### IDE plugins
 
-#### VIM plugin using Vundle installation
-
-Install [Vundle](https://github.com/VundleVim/Vundle.vim)
-
-Install [vim-terraform plugin using Vundle](https://vimawesome.com/plugin/vim-terraform-state-of-grace) :
-
-Configure `~/.vimrc` with the following content
-
-```text
-set nocompatible              " be iMproved, required
-filetype off                  " required
-
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'hashivim/vim-terraform'
-call vundle#end()            " required
-filetype plugin indent on    " required
-
-syntax on
-filetype plugin indent on
-
-" Terraform config
-let g:terraform_fmt_on_save=1
-let g:terraform_align=1
-```
-
 #### VScode
 
 Add Terraform extension (from HashiCorp) for VScode
@@ -40,49 +12,56 @@ Add Terraform extension (from HashiCorp) for VScode
 
 You can use [terraform-docs](https://github.com/terraform-docs/terraform-docs) to parse your code and generate the documentation.
 
+-> Install terraform-docs in your Cloud Shell by following the instructions in the README of the project or on the [website](https://terraform-docs.io/user-guide/installation/#pre-compiled-binary).
+
 #### Quick and dirty documentation generation
 
-With `terraform-docs md . > README.md`, you will create/update your documentation in a file named README.md. But if you manually modify README.md to add useful information to use your module, these modification will be overwritten with the next execution of the command.
+With `terraform-docs md . > DOCS.md`, you will create/update your documentation in a file named DOCS.md.
+But if you manually modify DOCS.md to add useful information to use your module, these modification will be overwritten with the next execution of the command.
+
+-> Generate a first version of the documentation using terraform-docs.
 
 #### A better way to generate a (manually editable) documentation
 
-With `terraform-docs --output-mode inject md . --output-file README.md`, you will create/update your documentation in the README.md, but terraform-docs will only update the content between BEGIN_TF_DOCS/END_TF_DOCS tags. So you can freely edit the README.md before BEGIN_TF_DOCS or after END_TF_DOCS.
+With `terraform-docs --output-mode inject md . --output-file DOCS.md`,
+you will create/update your documentation in the DOCS.md,
+but terraform-docs will only update the content between BEGIN_TF_DOCS/END_TF_DOCS tags.
+So you can freely edit the DOCS.md before BEGIN_TF_DOCS or after END_TF_DOCS.
+
+-> Modify your DOCS.md file and add a title to your document.
+-> Add the required tags so that terraform-docs update only the content it generates.
 
 #### The ultimate way to generate documentation
 
-Create a `.terraform-docs.yaml` configuration file in your project to make `--output-mode inject` `md` and `--output-file README.md` the default behaviour.
+-> Create a `.terraform-docs.yml` configuration file in your project to make `--output-mode inject` `md`
+and `--output-file DOCS.md` the default behaviour.
 
-More informations : https://terraform-docs.io/user-guide/configuration/
+More information : https://terraform-docs.io/user-guide/configuration/
 
-## Example
+Hints: Generate content with `terraform-docs markdown table .`.
 
-Create a new `google_compute_firewall` to allow `tcp:53` and `udp:53` in ingress
+## Add a input
 
-### Best practice
+-> Expose the bucket's name as an input at the right place following best practices
+and regenerate the doc.
 
-#### Folder convention
+## Add a provider
 
-Create a `test/fixtures` directory and add a file `test_variables.tfvars` with the content `key = "value"` for each variables required by this module.
+-> Add the provider `random` in the `providers.tf` file and regenerate the doc.
 
-### Makefile
+## Add a output
 
-Create a `Makefile` with :
+-> Use the random provider to add a random hexadecimal suffix to the bucket name,
+expose the bucket's name as an output at the right place following best practices
+and regenerate the doc.
 
-* a `test` directive to run `terraform validate`
-* a `init` directive to run `terraform init` the project
+Hints: Use `random_id` from the hashicorp `random` provider.
 
-Run `make test` and check the `terraform validate` result.
-
-Update the `test` directive to add `terraform apply` and `terraform destroy` using the `test_variables.tfvars` file and `-auto-approve` parameter.
 
 #### Bonus
 
-Create new Makefile directive:
+-> Try to only show the `providers`, `inputs` and `outputs` sections.
+-> Add a `.tfvars` file to specify a name for your bucket.
+Plan then apply the changes. See the bucket's name in the result of the apply and in the Cloud Console.
+Finally, clean the resources with a destroy.
 
-* a `apply` directive to apply the default configuration
-* a `destroy` directive to destroy the default configuration
-* a `docs` directive to generate the documentation using a `terraform-docs` configuration file
-
-#### Tips
-
-Command in Makefile directive must begin with tabulation character (not 2 or 4 spaces).

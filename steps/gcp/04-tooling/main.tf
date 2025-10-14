@@ -1,5 +1,5 @@
-resource "google_compute_firewall" "dns-ingress" {
-  // Create a firewall rule with multiple protocol ports using new dynamic block loop
-  description = "Allow Ingress DNS from all networks"
-  target_tags = ["dns-server"]
+resource "google_storage_bucket" "storage_example" {
+  name          = "sfeir-sxb-terraform-school-251015"
+  location      = "EU"
+  force_destroy = true  # Allows deletion of non-empty buckets
 }
