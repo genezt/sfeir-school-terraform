@@ -42,16 +42,15 @@ Les child resources sont des resources ayant besoin d'une autre ressource pour Ã
 
 ```hcl-terraform
 variable "databases" {
-  type = list(
+  type = map(
     object({
-      name      = string
       charset   = string
       collation = string
     })
   )
 }
 variable "instance_name" {}
-variable "project" {}
+variable "project_id" {}
 ```
 
 
@@ -64,20 +63,18 @@ variable "project" {}
 => *cat cloud_sql/vars.tfvars*
 
 ```json
-databases = [
-    {
-        name        = "db_1"
-        charset     = "utf8"
-        collation   = "utf8_unicode_ci"
-        user        = "root"
-    },
-    {
-        name        = "db_2"
-        charset     = "latin1"
-        collation   = "latin1_swedish_ci"
-        user        = "my_app"
-    }
-]
+databases = {
+  "db_1": {
+    charset     = "utf8"
+    collation   = "utf8_unicode_ci"
+    user        = "root"
+  }
+  "db_2": {
+    charset     = "latin1"
+    collation   = "latin1_swedish_ci"
+    user        = "my_app"
+  }
+}
 ```
 
 
@@ -92,9 +89,9 @@ databases = [
 ```hcl-terraform
 resource "google_sql_database" "database" {
   for_each = var.databases
-  name      = each.value.name
+  name      = each.key
   instance  = var.instance_name
-  project   = var.project
+  project   = var.project_id
   charset   = each.value.charset
   collation = each.value.collation
 }
