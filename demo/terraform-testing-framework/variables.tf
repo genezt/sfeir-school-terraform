@@ -9,6 +9,6 @@ variable "region" {
   default     = "europe-west9"
 }
 
-variable "bucket_prefix" {
+variable "prefix" {
   type = string
 }
