@@ -59,9 +59,9 @@ La configuration et le choix du backend se fait en le déclarant dans un fichier
 ```hcl-terraform
 terraform {
  backend "gcs" {
-   project  = "foo"
-   bucket  = "foo"
-   prefix  = "foo"
+   project  = "school-terraform-oct25-sbx"
+   bucket  = "terraform-state-bucket"
+   prefix  = "state"
  }
 }
 ```
@@ -122,11 +122,3 @@ terraform apply -target="google_storage_bucket.my_bucket"
 
 * Par exemple, en cas de désynchronisation du state suite à un problème réseau, d'un bug sur un provider.
 * Doit rester exceptionnel.
-
-##==##
-
-<!-- .slide: class="exercice" -->
-
-## DEMO
-
-* terraform-state
