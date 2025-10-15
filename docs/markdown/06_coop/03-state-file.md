@@ -58,10 +58,10 @@ La configuration et le choix du backend se fait en le déclarant dans un fichier
 
 ```hcl-terraform
 terraform {
- backend "gcs" {
-   bucket  = "terraform-state-bucket"
-   prefix  = "state"
- }
+  backend "gcs" { 
+    bucket  = "terraform-state-bucket"
+    prefix  = "state" 
+  }
 }
 ```
 
