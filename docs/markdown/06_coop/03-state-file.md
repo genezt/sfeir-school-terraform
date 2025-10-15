@@ -59,7 +59,6 @@ La configuration et le choix du backend se fait en le déclarant dans un fichier
 ```hcl-terraform
 terraform {
  backend "gcs" {
-   project  = "school-terraform-oct25-sbx"
    bucket  = "terraform-state-bucket"
    prefix  = "state"
  }
