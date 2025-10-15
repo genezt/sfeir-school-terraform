@@ -35,7 +35,6 @@ Il n’y a pas de normes imposées par l’outil, mais un ensemble de bonnes pra
 * Il est conseillé de dissocier les variables et outputs du code.
 * Il est important d’utiliser l’attribut description des variables.
 * Les variables optionnelles prennent une valeur par défaut.
-* Valider le format des variables.
 
 ```text
 .
@@ -73,7 +72,8 @@ variable "environment" {
 ## Gestion des fichiers et bonnes pratiques
 
 * `#` pour les commentaires.
-* La communauté utilise le snake_case.
+* La communauté utilise le snake_case:
+  * `resource "google_compute_instance" "ma_vm_custom_pour_dev" {}`.
 * L’utilisation d’un [.editorconfig](https://editorconfig.org/) permet aux développeurs d’utiliser un même format.
 * Pour aller plus loin : [Style guide Hashicorp](https://developer.hashicorp.com/terraform/language/style).
 
